@@ -1,0 +1,8 @@
+print("The survey about you")
+# this is the regular expression that checks for a-z A-Z characters only
+alpha_exp = r'[a-zA-Z]+'
+# this is the input line that ask for firstname
+firstname = str(input(" What is your first name? "))
+
+lastname = input(" What is your last name? ")
+
