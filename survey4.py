@@ -1,6 +1,11 @@
+
 fname = input("Please write first name: ")
+alpha_exp = r'[a-zA-Z]+'
+
 
 lname = input("Please write last name: ")
+alpha_exp = r'[a-zA-Z]+'
+
 
 dob = input(" Enter your date of birth in the format DD/MM/YYYY: ")
 
