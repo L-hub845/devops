@@ -1,6 +1,6 @@
-fname = str(input("Please write first name: "))
+fname = input(str("Please write first name: "))
 
-lname = str(input("Please write last name: "))
+lname = (input(str("Please write last name: "))
 
 dob = input(" Enter your date of birth in the format DD/MM/YYYY: ")
 
@@ -16,4 +16,4 @@ race = input(" If you like, please enter race: ")
 
 age = input(" Please enter age: ")
 
-sex = str(input(" Please enter sex: ")
+sex = input(str(" Please enter sex: ")
