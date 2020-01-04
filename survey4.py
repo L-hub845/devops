@@ -1,9 +1,12 @@
-
+import re
 fname = input("Please write first name: ")
 alpha_exp = r'[a-zA-Z]+'
+while re.fullmatch(name_exp, fname) == None:
+    print("Not a vailed firstname")
 
 
-lname = input("Please write last name: ")
+
+lname = input(" Please write last name: ")
 alpha_exp = r'[a-zA-Z]+'
 
 
