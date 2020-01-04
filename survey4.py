@@ -1,7 +1,7 @@
 import re
 fname = input("Please write first name: ")
 alpha_exp = r'[a-zA-Z]+'
-while re.fullmatch(name_exp, fname) == None:
+while re.fullmatch(alpha_exp, fname) == None:
     print("Not a vailed firstname")
 
 
