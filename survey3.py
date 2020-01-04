@@ -1,6 +1,6 @@
-fname = input("Please write first name: "))
+fname = input("Please write first name: ")
 
-lname = input("Please write last name: "))
+lname = input("Please write last name: ")
 
 dob = input(" Enter your date of birth in the format DD/MM/YYYY: ")
 
